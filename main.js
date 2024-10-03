@@ -29,9 +29,12 @@ function getResults(query) {
     //so query passes to this URL to get data for the user-entered city name
 
     fetch(`${api.base_url}weather?q=${query}&units=metric&APPID=${api.key}`)
-        .then(weather => {
-            return weather.json();
-        }).then(displayResults); // passing response (weather) object
+    .then(weather => weather.json())
+    .then(displayResults)
+    .catch(error => {
+        console.error("Error fetching data: ", error);
+        alert("City not found or network issue!");
+    }); // passing response (weather) object
 }
 
 
