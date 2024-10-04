@@ -4,16 +4,16 @@
 The Easy Weather App is a simple and user-friendly application that allows users to check the current weather in any city. By fetching real-time data from the OpenWeatherMap API, it provides the latest weather updates, including temperature, weather conditions, and a brief description of the weather. The app also displays additional information such as the high and low temperatures for the day.
 
 # Features
-. Search for current weather in any city worldwide.
-. Display of current temperature, weather conditions (e.g., sunny, cloudy), and a weather icon.
-. High and low temperatures of the day.
-. Real-time data fetched from the OpenWeatherMap API.
+ ~ Search for current weather in any city worldwide.
+ ~ Display of current temperature, weather conditions (e.g., sunny, cloudy), and a weather icon.
+ ~ High and low temperatures of the day.
+ ~ Real-time data fetched from the OpenWeatherMap API.
 
 # Technologies Used
-. HTML5: Structuring the webpage.
-. CSS3: Styling the UI.
-. JavaScript (ES6): Handling the API calls and dynamically updating the UI.
-. OpenWeatherMap API: Providing real-time weather data.
+ ~ HTML5: Structuring the webpage.
+ ~ CSS3: Styling the UI.
+ ~ JavaScript (ES6): Handling the API calls and dynamically updating the UI.
+ ~ OpenWeatherMap API: Providing real-time weather data.
 
 # How to Use
 1. Enter the name of any city in the search bar.
