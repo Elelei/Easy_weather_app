@@ -18,24 +18,27 @@
         </header>
 
         <main>
+            <!-- Section for displaying the location and current date -->
             <section class="location">
-                <div class="city">
-                    City, Country
-                </div>
-                <div class="date">
-                    Day, Month Date, Year
-                </div>
+                <div class="city">City, Country</div> <!-- City and Country will be dynamically updated -->
+                <div class="date">Day, Month Date, Year</div> <!-- Current date will be dynamically updated -->
             </section>
+            
+            <!-- Section for displaying current weather data -->
             <div class="current">
-                <div class="temp">Temp<span>°c</span></div>
+                <div class="temp">Temp<span>°c</span></div> <!-- Temperature will be dynamically updated -->
+                
+                <!-- Weather icon based on current conditions -->
                 <div class="weather-icon">
-                    <img alt="weather_icon">
+                    <img alt="weather_icon" src=""> <!-- Weather icon will be dynamically updated -->
                 </div>
-                <div class="weather">Weather</div>
-                <div class="description">Weather_description</div>
-                <div class="hi-low">min_temp°c/ max_temp°c</div>
+                
+                <div class="weather">Weather</div> <!-- Weather condition (e.g., 'Sunny') will be dynamically updated -->
+                <div class="description">Weather_description</div> <!-- Weather description (e.g., 'clear sky') will be dynamically updated -->
+                <div class="hi-low">min_temp°c / max_temp°c</div> <!-- Min and max temperature will be dynamically updated -->
             </div>
         </main>
+        
     </div>
 
     <script src="main.js"></script>
