@@ -10,15 +10,16 @@ The Easy Weather App is a simple and user-friendly application that allows users
  ~ Real-time data fetched from the OpenWeatherMap API.
 
 # Technologies Used
- ~ HTML5: Structuring the webpage.
- ~ CSS3: Styling the UI.
+ ~ HTML: Structuring the webpage.
+ ~ CSS: Styling the UI.
  ~ JavaScript (ES6): Handling the API calls and dynamically updating the UI.
  ~ OpenWeatherMap API: Providing real-time weather data.
 
 # How to Use
-1. Enter the name of any city in the search bar.
-2. Press the Enter key.
-3. The app will fetch and display the following information:
+1. Open it via the following link: https://profound-zuccutto-752725.netlify.app/
+2. Enter the name of any city in the search bar.
+3. Press the Enter key.
+4. The app will fetch and display the following information:
  . City name and country.
  . Current temperature in Celsius.
  . Weather conditions (e.g., cloudy, sunny).
