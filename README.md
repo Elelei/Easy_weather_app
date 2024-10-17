@@ -28,7 +28,7 @@ The Easy Weather App is a simple and user-friendly application that allows users
 
 # Installation
  1. Clone the repository:
-   git clone https://github.com/YourUsername/Easy_Weather_App.git
+   git clone https://github.com/Elelei/Easy_Weather_App.git
 
  2. Open the project folder:
  cd Easy_Weather_App
